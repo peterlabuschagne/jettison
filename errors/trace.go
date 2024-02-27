@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-stack/stack"
 
-	"github.com/luno/jettison/trace"
+	"github.com/peterlabuschagne/jettison/trace"
 )
 
 var (

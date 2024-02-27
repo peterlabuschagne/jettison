@@ -6,11 +6,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/example/examplepb"
-	jetgrpc "github.com/luno/jettison/grpc"
-	"github.com/luno/jettison/j"
-	"github.com/luno/jettison/log"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/example/examplepb"
+	jetgrpc "github.com/peterlabuschagne/jettison/grpc"
+	"github.com/peterlabuschagne/jettison/j"
+	"github.com/peterlabuschagne/jettison/log"
 )
 
 type Client struct {

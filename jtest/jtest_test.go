@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/j"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/j"
 )
 
 func Test_assertJettisonErrors(t *testing.T) {

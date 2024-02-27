@@ -9,8 +9,8 @@ import (
 	"github.com/sebdah/goldie/v2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/luno/jettison/internal"
-	"github.com/luno/jettison/trace"
+	"github.com/peterlabuschagne/jettison/internal"
+	"github.com/peterlabuschagne/jettison/trace"
 )
 
 //go:generate go test -update
@@ -27,7 +27,7 @@ func TestSetTraceConfig(t *testing.T) {
 	}
 	SetTraceConfig(cfg)
 	_, st := getTrace(0)
-	assert.Equal(t, []string{"github.com/luno/jettison/errors:TestSetTraceConfig"}, st)
+	assert.Equal(t, []string{"github.com/peterlabuschagne/jettison/errors:TestSetTraceConfig"}, st)
 
 	assert.Panics(t, func() {
 		SetTraceConfig(trace.StackConfig{})

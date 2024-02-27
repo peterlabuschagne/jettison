@@ -7,8 +7,8 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/luno/jettison/log"
-	"github.com/luno/jettison/models"
+	"github.com/peterlabuschagne/jettison/log"
+	"github.com/peterlabuschagne/jettison/models"
 )
 
 var grpcPrefix = "__jettison__"

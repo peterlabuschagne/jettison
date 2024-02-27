@@ -1,6 +1,6 @@
 # Jettison
-[![Go Report Card](https://goreportcard.com/badge/github.com/luno/jettison?style=flat-square)](https://goreportcard.com/report/github.com/luno/jettison)
-[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/luno/jettison)
+[![Go Report Card](https://goreportcard.com/badge/github.com/peterlabuschagne/jettison?style=flat-square)](https://goreportcard.com/report/github.com/peterlabuschagne/jettison)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/peterlabuschagne/jettison)
 
 ## What is it?
 Jettison is a library providing structured logs and errors in a way that's
@@ -36,8 +36,8 @@ a gRPC server/client passing jettison errors over the wire.
 
 ```GO
 import (
-    "github.com/luno/jettison"
-    "github.com/luno/jettison/errors"
+    "github.com/peterlabuschagne/jettison"
+    "github.com/peterlabuschagne/jettison/errors"
 )
 
 func ExampleNew() {
@@ -60,9 +60,9 @@ same manner as you attach metadata to errors.
 import (
     "context"
 
-    "github.com/luno/jettison"
-    "github.com/luno/jettison/errors"
-    "github.com/luno/jettison/log"
+    "github.com/peterlabuschagne/jettison"
+    "github.com/peterlabuschagne/jettison/errors"
+    "github.com/peterlabuschagne/jettison/log"
 )
 
 func ExampleInfo() {
@@ -140,8 +140,8 @@ saving you a couple of keystrokes:
 
 ```GO
 import (
-    "github.com/luno/jettison/errors"
-    "github.com/luno/jettison/j"
+    "github.com/peterlabuschagne/jettison/errors"
+    "github.com/peterlabuschagne/jettison/j"
 )
 
 func ExampleKS() {

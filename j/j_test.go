@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/internal"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/internal"
 )
 
 // fmtonly tests sprint if fmt.Formatter but not fmt.Stringer.

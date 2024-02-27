@@ -6,9 +6,9 @@ import (
 
 	"github.com/sebdah/goldie/v2"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/log"
-	"github.com/luno/jettison/trace"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/log"
+	"github.com/peterlabuschagne/jettison/trace"
 )
 
 // TestSourceInfo tests the log source which includes line numbers.

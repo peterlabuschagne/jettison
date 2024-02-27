@@ -11,9 +11,9 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/internal"
-	"github.com/luno/jettison/models"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/internal"
+	"github.com/peterlabuschagne/jettison/models"
 )
 
 // Assert asserts that the specified error matches the expected one. The test

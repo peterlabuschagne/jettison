@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/luno/jettison/jtest"
+	"github.com/peterlabuschagne/jettison/jtest"
 )
 
 func TestErrIntercept(t *testing.T) {

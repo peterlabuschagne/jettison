@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/luno/jettison/internal"
-	"github.com/luno/jettison/jtest"
-	"github.com/luno/jettison/models"
+	"github.com/peterlabuschagne/jettison/internal"
+	"github.com/peterlabuschagne/jettison/jtest"
+	"github.com/peterlabuschagne/jettison/models"
 )
 
 func TestError(t *testing.T) {

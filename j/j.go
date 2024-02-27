@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/internal"
-	"github.com/luno/jettison/log"
-	"github.com/luno/jettison/models"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/internal"
+	"github.com/peterlabuschagne/jettison/log"
+	"github.com/peterlabuschagne/jettison/models"
 )
 
 var (

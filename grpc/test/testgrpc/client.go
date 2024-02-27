@@ -6,9 +6,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/luno/jettison/errors"
-	jetgrpc "github.com/luno/jettison/grpc"
-	"github.com/luno/jettison/grpc/test/testpb"
+	"github.com/peterlabuschagne/jettison/errors"
+	jetgrpc "github.com/peterlabuschagne/jettison/grpc"
+	"github.com/peterlabuschagne/jettison/grpc/test/testpb"
 )
 
 type Client struct {

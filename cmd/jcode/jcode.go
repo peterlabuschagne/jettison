@@ -15,8 +15,8 @@ import (
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/j"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/j"
 )
 
 const (
@@ -24,8 +24,8 @@ const (
 	statusHelp        = 2
 	statusInvalidFile = 3
 
-	jetPath = "\"github.com/luno/jettison/errors\""
-	jPath   = "\"github.com/luno/jettison/j\""
+	jetPath = "\"github.com/peterlabuschagne/jettison/errors\""
+	jPath   = "\"github.com/peterlabuschagne/jettison/j\""
 )
 
 var (

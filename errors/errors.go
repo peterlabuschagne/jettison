@@ -3,7 +3,7 @@ package errors
 import (
 	stderrors "errors"
 
-	"github.com/luno/jettison/internal"
+	"github.com/peterlabuschagne/jettison/internal"
 )
 
 type ErrorOption func(je *internal.Error)

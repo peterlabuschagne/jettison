@@ -9,11 +9,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/grpc/internal/jettisonpb"
-	"github.com/luno/jettison/internal"
-	"github.com/luno/jettison/j"
-	"github.com/luno/jettison/models"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/grpc/internal/jettisonpb"
+	"github.com/peterlabuschagne/jettison/internal"
+	"github.com/peterlabuschagne/jettison/j"
+	"github.com/peterlabuschagne/jettison/models"
 )
 
 // Error wraps an error and a status.

@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/luno/jettison/errors"
+	"github.com/peterlabuschagne/jettison/errors"
 )
 
 // UnaryClientInterceptor intercepts errors, de-serialising any

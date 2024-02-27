@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/luno/jettison/example/serverclient"
-	"github.com/luno/jettison/j"
-	"github.com/luno/jettison/log"
+	"github.com/peterlabuschagne/jettison/example/serverclient"
+	"github.com/peterlabuschagne/jettison/j"
+	"github.com/peterlabuschagne/jettison/log"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package log
 import (
 	"context"
 
-	"github.com/luno/jettison/models"
+	"github.com/peterlabuschagne/jettison/models"
 )
 
 // contextKey is used to index jettison options in the given

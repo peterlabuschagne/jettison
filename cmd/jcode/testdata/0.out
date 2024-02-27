@@ -3,8 +3,8 @@ package testdata
 import (
 	"fmt"
 
-	"github.com/luno/jettison/errors"
-	"github.com/luno/jettison/j"
+	"github.com/peterlabuschagne/jettison/errors"
+	"github.com/peterlabuschagne/jettison/j"
 	_ "github.com/luno/protocp"
 )
 

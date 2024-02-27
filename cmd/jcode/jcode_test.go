@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/luno/jettison/jtest"
+	"github.com/peterlabuschagne/jettison/jtest"
 )
 
 var writeGoldenFiles = flag.Bool("write-golden-files", false,
