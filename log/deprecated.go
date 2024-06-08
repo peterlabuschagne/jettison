@@ -7,19 +7,16 @@ import (
 )
 
 // Print wraps a call to fmt.Sprint in a jettison log and writes it to the logger.
-// Deprecated: Use log.Info or log.Error instead.
 func Print(v ...interface{}) {
 	print(v...)
 }
 
 // Printf wraps a call to fmt.Sprintf in a jettison log and writes it to the logger.
-// Deprecated: Use log.Info or log.Error instead.
 func Printf(format string, v ...interface{}) {
 	printf(format, v...)
 }
 
 // Println wraps a call to fmt.Sprintln in a jettison log and writes it to the logger.
-// Deprecated: Use log.Info or log.Error instead.
 func Println(v ...interface{}) {
 	println(v...)
 }
@@ -43,14 +40,12 @@ func Panicln(v ...interface{}) {
 }
 
 // Fatal is equivalent to log.Print followed by a call to os.Exit(1).
-// Deprecated: Use log.Info or log.Error instead and exit manually.
 func Fatal(v ...interface{}) {
 	print(v...)
 	os.Exit(1)
 }
 
 // Fatalf is equivalent to log.Printf followed by a call to os.Exit(1).
-// Deprecated: Use log.Info or log.Error instead and exit manually.
 func Fatalf(format string, v ...interface{}) {
 	printf(format, v...)
 	os.Exit(1)

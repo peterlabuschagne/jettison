@@ -11,7 +11,7 @@ import (
 )
 
 // logger is the global logger. It defaults to a human friendly command line logger.
-var logger Logger = newJSONLogger(os.Stderr)
+var logger Logger = NewCmdLogger(os.Stderr, false)
 
 // Logger does logging of log lines.
 type Logger interface {
